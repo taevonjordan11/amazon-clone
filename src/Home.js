@@ -14,10 +14,10 @@ function Home() {
       <div className="home__row">
         <Product
           id="34567890"
-          title="The Lean Starup"
-          price={29.99}
+          title="TAnker Nano USB-C Charger, PIQ 3.0 Durable Compact Fast Charger, PowerPort III USB-C Charger for iPhone 12/12 Mini / 12 Pro / 12 Pro Max / 11, Galaxy, Pixel 4/3, iPad Pro (Cable Not Included)"
+          price={16.99}
           image={
-            "https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg"
+            "https://images-na.ssl-images-amazon.com/images/I/51gHyK0YQVL._AC_SL1500_.jpg"
           }
           rating={5}
         />
