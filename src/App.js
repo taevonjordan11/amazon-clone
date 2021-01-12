@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header.js";
 import Home from "./Home";
 import Checkout from "./Checkout";
+import Login from "./Login";
 
 import "./App.css";
 
@@ -11,13 +12,18 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header />
         <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+
           <Route path="/checkout">
+            <Header />
             <Checkout />
           </Route>
 
           <Route path="/">
+            <Header />
             <Home />
           </Route>
         </Switch>
