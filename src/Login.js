@@ -38,7 +38,6 @@ function Login() {
           src="https://purepng.com/public/uploads/large/amazon-logo-s3f.png"
         />
       </Link>
-
       <div className="login__container">
         <h1>Sign In</h1>
         <form>
@@ -49,13 +48,11 @@ function Login() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <h5>Password</h5>
-
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-
           <button
             className="login__signInButton"
             type="submit"
