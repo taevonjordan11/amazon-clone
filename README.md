@@ -15,3 +15,11 @@ To demo this app, please visit the link here: https://clone-2c8cb.firebaseapp.co
 > https://taevonjordan1.medium.com/
 
 # amazon-clone
+
+## NOTE:
+While demoing this application, please Do Not use any of your real debit/credit card info. Please use the one provided below
+
+Card Number: 4242 4242 4242 4242
+Exp Date: 04 / 24
+CVC: 242
+ZIP-CODE:42424
